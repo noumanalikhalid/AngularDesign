@@ -1,0 +1,26 @@
+<div class='flex justify-center items-center p-4 bg-slate-200 rounded'>
+    <div class='max-w-screen-md w-full'>
+      <h1 class='font-bold text-center p-2'>See What People Are Saying 👀</h1>
+      <p class='text-center p-2'>
+        No more pay for expensive Voice-Overs! Spechimo makes it possible
+      </p>
+      <div class='p-4'>
+        <div class='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'>
+          <!-- Cards go here -->
+          <div *ngFor="let item of items; let index = index" class='bg-white rounded p-4'>
+            <div class='flex justify-around items-center p-2 '>
+              <!-- Assuming you're using Angular Material for icons -->
+              <mat-icon class="  "  style="font-size: 26px" >account_circle</mat-icon> 
+              <h2>Nouman Ali</h2>
+            </div>
+            <div>
+              <p class='p-2'>
+                SEO tool needs activation for your website Facebook Plugin
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
